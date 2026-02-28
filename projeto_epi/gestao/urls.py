@@ -11,7 +11,8 @@ from .views import (
 )
 
 urlpatterns = [
-    path('',home),
+    path('', home, name='home'),
+
     # Rota para Listar (Read)
     path('colaboradores/', ColaboradorListView.as_view(), name='colaborador_list'),
 

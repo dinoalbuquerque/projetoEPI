@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'epi_db',         # O nome do banco que você criou
         'USER': 'root',    # Seu usuário do MySQL (ex: 'root')
-        'PASSWORD': 'root',  # Sua senha do MySQL
+        'PASSWORD': '',  # Sua senha do MySQL
         'HOST': 'localhost',      # Ou o IP do seu servidor de banco
         'PORT': '3306',           # Porta padrão do MySQL
     }
